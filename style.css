@@ -1,0 +1,9 @@
+body {
+    margin-left: 100px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
