@@ -1,13 +1,13 @@
 
 
-header {outline: 1px solid lightgreen;
+header {
     position: relative;
     display: block;
-   
-    
+    border-bottom: 1px solid  #5f6368;
+    border: 1px solid red;
 }
 
-.sticky { outline: 1px solid rgb(47, 47, 184);
+.sticky { 
 display: flex;
 position: sticky;
 min-width: 1261px;
@@ -23,17 +23,16 @@ justify-content: stretch;
     margin: 1em;
 }
 
-#header-left { outline: 1px dashed gray;
+#header-left { 
     display: flex;
     justify-content: flex-start;
     flex-basis: 65%;
 }
 
-#header-right { outline: 1px dashed pink;
+#header-right { 
     display: flex;
     justify-content: flex-end;
     flex-basis: 35%;
-    
 }
 
 .input-container {
@@ -46,7 +45,8 @@ input {
     border-radius: 30px;
     width: 100%;
     height: 2em;
-
+    text-indent: 1em;
+    border: 1px solid  #BDBDBD;
 }
 
 #input-clear {
@@ -72,7 +72,34 @@ button {
     margin-left: 1em;
 }
 
-.header-row-2 {outline: 1px dashed orange;
+.header-row-2 {
     margin: 0;
     margin-left: 138px;
+    width: 700px;
+    box-sizing: border-box;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+nav a {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #5f6368;
+    text-decoration: none;
+    margin: .5em;
+    line-height: 25px;
+}
+
+.option-icon {
+    fill: #5f6368;
+    padding-right: 3px;
+}
+
+span svg {
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
 }
