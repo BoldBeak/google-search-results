@@ -1,13 +1,15 @@
 
 
 header {outline: 1px solid lightgreen;
+    position: relative;
+    display: block;
    
     
 }
 
 .sticky { outline: 1px solid rgb(47, 47, 184);
 display: flex;
-position: absolute;
+position: sticky;
 min-width: 1261px;
 width: 100%;
 align-items: center;
@@ -23,19 +25,19 @@ justify-content: stretch;
 
 #header-left { outline: 1px dashed gray;
     display: flex;
-    width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-basis: 65%;
 }
 
 #header-right { outline: 1px dashed pink;
     display: flex;
     justify-content: flex-end;
-    flex-basis: 25%;
+    flex-basis: 35%;
     
 }
 
 .input-container {
-    width: 100%;
+    width: 700px;
     margin: 0;
 }
 
@@ -68,4 +70,9 @@ button {
     padding: .5em 1.5em;
     border-radius: 5px;
     margin-left: 1em;
+}
+
+.header-row-2 {outline: 1px dashed orange;
+    margin: 0;
+    margin-left: 138px;
 }
