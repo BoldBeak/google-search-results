@@ -1,9 +1,27 @@
-body {
-    margin-left: 100px;
+
+
+header {outline: 1px solid lightgreen;
+    width: 100%;
 }
 
-header {
-    width: 100%;
+section { //outline: 1px solid rgb(47, 47, 184);
+display: flex;
+width: 100%;
+}
+
+.container {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+}
+
+#header-left {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#header-right { outline: 1px dashed pink;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
 }
