@@ -128,3 +128,28 @@ span svg {
     margin-left: 170px;
 }
 
+.body-container { background-color: cadetblue;
+    width: 100%;
+    display: flex;
+}
+
+.content-left, 
+.content-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 45%;
+    flex-basis: 50%;
+}
+
+.content-left {
+    margin-left: 170px;
+}
+
+.search-result {
+    max-width: 600px;
+}
+
+.drop-down-info {
+    border: 1px solid grey;
+}
