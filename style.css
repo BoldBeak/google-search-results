@@ -100,7 +100,7 @@ nav a {
     align-items: center;
     color: #5f6368;
     text-decoration: none;
-    margin: .5em;
+    padding: 16px 12px 12px 10px;
     line-height: 25px;
 }
 
@@ -117,7 +117,7 @@ span svg {
 
 .line {
     height: 1px;
-    width: 100%;
+    width: 105%;
     background-color: lightgrey;
 }
 
