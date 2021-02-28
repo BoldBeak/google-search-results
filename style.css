@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 header {
     position: relative;
@@ -25,13 +27,18 @@ justify-content: stretch;
     position: relative;
     display: flex;
     align-items: center;
-    margin: 1em;
+    margin: .75em;
 }
 
 #header-left { 
     display: flex;
     justify-content: flex-start;
     flex-basis: 65%;
+}
+
+.logo {
+    margin-right: 3em;
+    margin-left: .1em;
 }
 
 #header-right { 
@@ -79,8 +86,8 @@ button {
 
 .header-row-2 {
     margin: -1em;
-    margin-left: 125px;
-    width: 700px;
+    margin-left: 150px;
+    width: 675px;
     font-size: 13px;
     display: flex;
     justify-content: space-between;
@@ -107,3 +114,17 @@ span svg {
     width: 16px;
     vertical-align: middle;
 }
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.search-stats {
+    color: #70757a;
+    line-height: 40px;
+    font-size: 13px;
+    margin-left: 170px;
+}
+
