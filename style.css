@@ -1,10 +1,10 @@
 
 
-header {outline: 1px solid lightgreen;
-    width: 100%;
+header {
+   
 }
 
-.sticky { outline: 1px solid rgb(47, 47, 184);
+.sticky { 
 display: flex;
 width: 100%;
 align-items: center;
@@ -18,21 +18,22 @@ justify-content: stretch;
     margin: 1em;
 }
 
-#header-left { outline: 1px dashed gray;
+#header-left { 
     display: flex;
-    width: 100%;
+    flex-basis: 50%;
     justify-content: center;
 }
 
-#header-right { outline: 1px dashed pink;
+#header-right { 
     display: flex;
     justify-content: flex-end;
-    flex-basis: 25%;
+    flex-basis: 50%;
     
 }
 
 .input-container {
     width: 100%;
+    margin: 0;
 }
 
 input {
@@ -63,4 +64,23 @@ button {
     padding: .5em 1.5em;
     border-radius: 5px;
     margin-left: 1em;
+}
+
+.header-row-2, .row-2-nav { outline: 1px dashed pink;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.row-2-nav { outline: 2px dotted teal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row-2-option {
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
 }
