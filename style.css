@@ -10,18 +10,21 @@ width: 100%;
 }
 
 .container {
+    position: relative;
     display: flex;
     align-items: center;
+    margin: 1em;
 }
 
 #header-left {
     display: flex;
-    width: 100%;
+    min-width: 50%;
     justify-content: space-between;
 }
 
 #header-right { outline: 1px dashed pink;
     display: flex;
+    min-width: 25%;
     width: 100%;
     justify-content: flex-end;
 }
