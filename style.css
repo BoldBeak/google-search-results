@@ -130,20 +130,23 @@ span svg {
 
 .body-container { background-color: cadetblue;
     width: 100%;
+    min-width: 1261px;
     display: flex;
 }
 
 .content-left, 
-.content-right {
+.content-right { outline: 2px dashed orange;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     width: 45%;
     flex-basis: 50%;
+    
 }
 
 .content-left {
     margin-left: 170px;
+    min-width: 675px;
 }
 
 .search-result {
