@@ -117,7 +117,8 @@ span svg {
 
 .line {
     height: 1px;
-    width: 105%;
+    width: 100%;
+    min-width: 1261px;
     background-color: lightgrey;
 }
 
@@ -147,8 +148,12 @@ span svg {
 .content-left {
     margin-left: 170px;
     min-width: 675px;
+    margin-right: 35px;
 }
 
+.content-right {
+    margin-left: 35px;
+}
 .search-result {
     max-width: 600px;
 }
