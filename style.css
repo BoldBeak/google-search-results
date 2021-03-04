@@ -162,3 +162,11 @@ span svg {
 .drop-down-info {
     border: 1px solid grey;
 }
+
+.search-title-link {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+}
