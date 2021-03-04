@@ -163,10 +163,31 @@ span svg {
     border: 1px solid grey;
 }
 
-.search-title-link {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: left;
+.search-title-link { 
+    display: flex;;
+    flex-direction: column-reverse;
+    justify-content: stretch;
     align-items: flex-start;
     text-align: left;
+    text-decoration: none;
+}
+
+.search-title { 
+    width: 100%;
+    
+}
+
+cite { 
+}
+
+.search-snippet {
+    width: 100%;
+}
+
+.search-extra-links {
+
+}
+
+.extra-link {
+    text-decoration: none;
 }
