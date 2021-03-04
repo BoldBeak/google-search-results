@@ -130,7 +130,7 @@ span svg {
     margin-left: 170px;
 }
 
-.body-container { background-color: cadetblue;
+.body-container {
     width: 100%;
     min-width: 1261px;
     display: flex;
