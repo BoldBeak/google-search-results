@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: arial, sans-serif;
 }
 
 header {
@@ -62,12 +62,14 @@ input {
     border: 1px solid  #BDBDBD;
 }
 
+/* sets 'X' icon in input */
 #input-clear {
     position: absolute;
     right: 3em;
     fill: grey;
 }
 
+/* sets search icon in input */
 #input-search {
     position: absolute;
     right: 1em;
@@ -76,6 +78,7 @@ input {
     fill: #4285f4;
 }
 
+/* login button styling */
 button {
     background-color: #1a73e8;
     color: white;
@@ -85,6 +88,7 @@ button {
     margin-left: 1em;
 }
 
+/* advanced search settings row of header */
 .header-row-2 {
     margin: -1em;
     margin-left: 150px;
@@ -105,6 +109,7 @@ nav a {
     line-height: 25px;
 }
 
+/* advanced search icons */
 .option-icon {
     fill: #5f6368;
     padding-right: 3px;
@@ -116,26 +121,30 @@ span svg {
     vertical-align: middle;
 }
 
+/* divider between header and results */
 .line {
     height: 1px;
     width: 100%;
     min-width: 1261px;
-    background-color: lightgrey;
+    background-color: #ebebeb;
+
 }
 
 .search-stats {
     color: #70757a;
-    line-height: 40px;
+  //  line-height: 40px;
     font-size: 13px;
     margin-left: 170px;
 }
 
+/* container for search results */
 .body-container {
     width: 100%;
     min-width: 1261px;
     display: flex;
 }
 
+/* general settings for left and right sides */
 .content-left, 
 .content-right { outline: 2px dashed orange;
     display: flex;
@@ -155,14 +164,13 @@ span svg {
 .content-right {
     margin-left: 35px;
 }
+
+/* container for single result */
 .search-result {
     max-width: 600px;
 }
 
-.drop-down-info {
-    border: 1px solid grey;
-}
-
+/* search result link container */
 .search-title-link { 
     display: flex;;
     flex-direction: column-reverse;
@@ -172,22 +180,35 @@ span svg {
     text-decoration: none;
 }
 
+/* search result heading */
 .search-title { 
     width: 100%;
-    
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+
 }
 
+/* search result basic citation (above heading) */
 cite { 
 }
 
+/* paragraph in search results */
 .search-snippet {
     width: 100%;
 }
 
+/* container for additional links at bottom of individual search result */
 .search-extra-links {
 
 }
 
+/* individual link w/in .search-extra-links container */
 .extra-link {
     text-decoration: none;
+}
+
+/* suggested searches drop-down list */
+.drop-down-info {
+    border: 1px solid grey;
 }
