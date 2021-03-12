@@ -132,7 +132,6 @@ span svg {
 
 .search-stats {
     color: #70757a;
-  //  line-height: 40px;
     font-size: 13px;
     margin-left: 170px;
 }
@@ -146,7 +145,7 @@ span svg {
 
 /* general settings for left and right sides */
 .content-left, 
-.content-right { outline: 2px dashed orange;
+.content-right { 
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -181,31 +180,48 @@ span svg {
 }
 
 /* search result heading */
+/* TODO: fix line height/padding */
 .search-title { 
     width: 100%;
     margin: 0;
     font-family: arial, sans-serif;
     font-weight: normal;
+    line-height: 22px;
 
 }
 
 /* search result basic citation (above heading) */
+/* TODO: fix line spacing */
+/* TODO: first word styling */
+/* TODO: vertical 'more' menu */
 cite { 
+    font-style: normal;
+    color: #70757a;
+    margin-top: .5em;
+    line-height: 22px;
+    font-size: 13px;
 }
 
 /* paragraph in search results */
 .search-snippet {
     width: 100%;
+    margin: 0;
+    line-height: 22px;
+    color: #70757a;
+    font-size: 14px;
 }
+
+
 
 /* container for additional links at bottom of individual search result */
 .search-extra-links {
-
+    margin: 0;
 }
 
 /* individual link w/in .search-extra-links container */
 .extra-link {
     text-decoration: none;
+    font-size: 14px;
 }
 
 /* suggested searches drop-down list */
