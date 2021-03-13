@@ -240,16 +240,17 @@ cite {
     justify-content: start;
     align-items: baseline;
     width: 95%;
-    border-bottom: 1px solid #70757a;
+    border-bottom: 1px solid #ebebeb;
     margin-top: 30px;
 }
 
 .also-asked-header {
     font-weight: lighter;
     font-size: 20px;
-    margin-bottom: 5px;
-
+    margin: 0;
+    padding-bottom: 7px;
 }
+
 #more-option-icon {
     margin-left: 15px;
 }
@@ -259,8 +260,8 @@ cite {
     justify-content: space-between;
     align-items: center;
     width: 95%;
-    border-bottom: 1px solid  #70757a;
-    color:  #70757a;
+    border-bottom: 1px solid  #ebebeb;
+    color:  #202124;
 }
 
 .also-asked-choice-link {
@@ -269,7 +270,7 @@ cite {
     align-items: center;
     width: 100%;
     text-decoration: none;
-    
+    color: #202124;
 }
 
 /* suggested searches drop-down list */
