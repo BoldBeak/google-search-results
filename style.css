@@ -154,6 +154,10 @@ span svg {
     
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
 .content-left {
     margin-left: 170px;
     min-width: 675px;
