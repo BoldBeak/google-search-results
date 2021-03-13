@@ -158,6 +158,7 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 .content-left {
     margin-left: 170px;
     min-width: 675px;
@@ -226,6 +227,49 @@ cite {
 .extra-link {
     text-decoration: none;
     font-size: 14px;
+}
+
+/* drop-down list below first search result */
+.also-asked {
+    display: block;
+    width: 100%;
+}
+
+.also-asked-header-container {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    width: 95%;
+    border-bottom: 1px solid #70757a;
+    margin-top: 30px;
+}
+
+.also-asked-header {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+#more-option-icon {
+    margin-left: 15px;
+}
+
+.also-asked-choice-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    border-bottom: 1px solid  #70757a;
+    color:  #70757a;
+}
+
+.also-asked-choice-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    
 }
 
 /* suggested searches drop-down list */
