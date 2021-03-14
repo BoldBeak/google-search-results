@@ -207,10 +207,14 @@ main {
 /* TODO: vertical 'more' menu */
 cite { 
     font-style: normal;
-    color: #70757a;
+    color: #202124;
     margin-top: .5em;
     line-height: 22px;
     font-size: 13px;
+}
+
+cite :first-of-type {
+    color: #7075a7;
 }
 
 
