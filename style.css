@@ -133,7 +133,7 @@ span svg {
 .search-stats {
     color: #70757a;
     font-size: 13px;
-    margin-left: 170px;
+    margin-left: 175px;
 }
 
 /* container for search results */
@@ -160,7 +160,7 @@ main {
 }
 
 .content-left {
-    margin-left: 170px;
+    margin-left: 175px;
     min-width: 675px;
     margin-right: 35px;
 }
@@ -197,7 +197,7 @@ main {
     margin: 0;
     font-family: arial, sans-serif;
     font-weight: normal;
-    line-height: 22px;
+    line-height: 30px;
 
 }
 
@@ -253,6 +253,7 @@ cite :first-of-type {
     width: 95%;
     border: 1px solid #ebebeb;
     margin-top: 30px;
+    margin-left: 5px;
     line-height: 45px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
@@ -263,25 +264,26 @@ cite :first-of-type {
     font-weight: lighter;
     font-size: 20px;
     margin: 0;
-    padding-left: 12px;
+    padding-left: 15px;
 }
 
 #more-option-icon {
     margin-left: 15px;
 }
 
-.also-asked-choice-container {
+.also-asked-choice-container { 
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 95%;
-    border-bottom: 1px solid  #ebebeb;
+    border: 1px solid  #ebebeb;
+    border-top: 0;
     color:  #202124;
+    margin-left: 5px;
 }
 
 p.also-asked-choice {
-    margin-top: 12px;
-    margin-bottom: 12px;
+   padding-left: 15px;
 }
 
 .final-choice {
