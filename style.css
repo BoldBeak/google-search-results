@@ -177,7 +177,7 @@ main {
 /* search result link container */
 .search-title-link { 
     display: flex;;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: stretch;
     align-items: flex-start;
     text-align: left;
@@ -213,6 +213,7 @@ cite {
     font-size: 13px;
 }
 
+
 /* paragraph in search results */
 .search-snippet {
     width: 100%;
@@ -244,10 +245,10 @@ cite {
 .also-asked-header-container {
     display: flex;
     justify-content: start;
-    align-items: baseline;
     width: 95%;
     border-bottom: 1px solid #ebebeb;
     margin-top: 30px;
+    padding-bottom: 8px;
 }
 
 
@@ -255,7 +256,7 @@ cite {
     font-weight: lighter;
     font-size: 20px;
     margin: 0;
-    padding-bottom: 7px;
+    
 }
 
 #more-option-icon {
@@ -269,6 +270,11 @@ cite {
     width: 95%;
     border-bottom: 1px solid  #ebebeb;
     color:  #202124;
+}
+
+p.also-asked-choice {
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .final-choice {
