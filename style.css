@@ -254,7 +254,7 @@ cite :first-of-type {
     border: 1px solid #ebebeb;
     margin-top: 30px;
     margin-left: 5px;
-    line-height: 45px;
+    line-height: 40px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 }
@@ -284,6 +284,12 @@ cite :first-of-type {
 
 p.also-asked-choice {
    padding-left: 15px;
+   margin-top: 12px;
+   margin-bottom: 12px;
+}
+
+.also-asked-choice-nav {
+    padding-right: 15px;
 }
 
 .final-choice {
