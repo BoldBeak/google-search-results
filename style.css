@@ -184,6 +184,12 @@ main {
     text-decoration: none;
 }
 
+.citation-container {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+}
+
 /* search result heading */
 /* TODO: fix line height/padding */
 .search-title { 
@@ -265,6 +271,21 @@ cite {
     color:  #202124;
 }
 
+.final-choice {
+    position: relative;
+}
+
+.final-choice::after {
+    position: absolute;
+    right: 0px;
+    bottom: -5px;
+    content: "Feedback";
+    font-size: 12px;
+    color:  #202124;
+    padding-left: 14px;
+    background-color: #ffffff;
+}
+
 .also-asked-choice-link {
     display: flex;
     justify-content: space-between;
@@ -278,3 +299,4 @@ cite {
 .drop-down-info {
     border: 1px solid grey;
 }
+
