@@ -203,8 +203,7 @@ main {
 
 /* search result basic citation (above heading) */
 /* TODO: fix line spacing */
-/* TODO: first word styling */
-/* TODO: vertical 'more' menu */
+
 cite { 
     font-style: normal;
     color: #202124;
@@ -244,15 +243,19 @@ cite :first-of-type {
 .also-asked {
     display: block;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .also-asked-header-container {
     display: flex;
     justify-content: start;
     width: 95%;
-    border-bottom: 1px solid #ebebeb;
+    border: 1px solid #ebebeb;
     margin-top: 30px;
-    padding-bottom: 8px;
+    line-height: 45px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 
@@ -260,7 +263,7 @@ cite :first-of-type {
     font-weight: lighter;
     font-size: 20px;
     margin: 0;
-    
+    padding-left: 12px;
 }
 
 #more-option-icon {
