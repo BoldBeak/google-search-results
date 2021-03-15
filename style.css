@@ -292,6 +292,14 @@ p.also-asked-choice {
     padding-right: 15px;
 }
 
+.also-asked-choice-nav svg, 
+.attached-nav svg {
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    fill: #70757a;
+}
+
 .final-choice {
     position: relative;
     border-bottom-left-radius: 6px;
@@ -343,12 +351,6 @@ p.attached-choice {
 
 .attached-nav {
     padding-right: 0;
-}
-.attached-nav svg {
-    height: 24px;
-    width: 24px;
-    line-height: 24px;
-    fill: #70757a;    
 }
 
 /* suggested searches drop-down list */
