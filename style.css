@@ -341,12 +341,14 @@ p.attached-choice {
     line-height: 35px;
 }
 
+.attached-nav {
+    padding-right: 0;
+}
 .attached-nav svg {
     height: 24px;
     width: 24px;
     line-height: 24px;
-    fill: #70757a;
-    margin-right: 0;    
+    fill: #70757a;    
 }
 
 /* suggested searches drop-down list */
