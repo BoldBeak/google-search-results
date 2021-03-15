@@ -319,6 +319,11 @@ p.also-asked-choice {
     color: #202124;
 }
 
+.attached-choice {
+    border-left: 0;
+    border-right: 0;
+}
+
 /* suggested searches drop-down list */
 .drop-down-info {
     border: 1px solid grey;
