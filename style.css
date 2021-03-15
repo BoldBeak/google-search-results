@@ -304,6 +304,7 @@ p.also-asked-choice {
     position: relative;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+    margin-bottom: 24px;
 }
 
 .final-choice::after {
