@@ -354,6 +354,33 @@ p.attached-choice {
     padding-right: 0;
 }
 
+.all-stats {
+    
+    display: flex;
+    min-width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #70757a;
+    line-height: 22px;
+    margin-top: 5px;
+}
+
+.stat {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.stat-title {
+    font-weight: bold;
+}
+
+.stat-text {
+    padding-left: 3px;
+}
+
+
 /* suggested searches drop-down list */
 .drop-down-info {
     border: 1px solid grey;
