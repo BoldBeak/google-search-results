@@ -260,7 +260,7 @@ cite :first-of-type {
 }
 
 
-.also-asked-header {
+.also-asked-header, .images-for-header {
     font-weight: lighter;
     font-size: 20px;
     margin: 0;
@@ -379,6 +379,9 @@ p.attached-choice {
 .stat-text {
     padding-left: 3px;
 }
+
+/* BEGIN "IMAGES FOR" RESULTS */
+
 
 
 /* suggested searches drop-down list */
