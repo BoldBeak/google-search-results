@@ -293,7 +293,7 @@ p.also-asked-choice {
 }
 
 .also-asked-choice-nav svg, 
-.attached-nav svg {
+.attached-nav svg, .named-icon-drop-icon svg, .images-for-header-container svg {
     height: 24px;
     width: 24px;
     line-height: 24px;
@@ -381,6 +381,50 @@ p.attached-choice {
 }
 
 /* BEGIN "IMAGES FOR" RESULTS */
+.images-for-odin-container {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.images-for-header-container, .named-icons-group {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.images-for-named-with-icon-container { outline: 1px dashed orange;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9px;
+}
+
+.named-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ebebeb;
+    border-radius: 30px;
+    line-height: 32px;
+    margin: 4px;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #70757a;
+}
+
+.named-icon svg {
+    padding-right: 5px;
+}
+
+.named-icon-drop-icon svg {
+    border: 1px solid #ebebeb;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 3px;
+}
 
 
 
