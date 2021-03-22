@@ -394,29 +394,47 @@ p.attached-choice {
     align-items: center;
 }
 
-.images-for-named-with-icon-container { outline: 1px dashed orange;
+.named-icons-group {
+    justify-content: space-around;
+    width: 80%;
+}
+
+.images-for-named-with-icon-container { 
     width: 97%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 9px;
+    margin-top: 10px;
 }
 
 .named-icon {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #ebebeb;
-    border-radius: 30px;
-    line-height: 32px;
-    margin: 4px;
+    border: 1px solid #dadce0;
+    border-radius: 18px;
+    height: 32px;
+    min-width: 36px;
+    padding-left: 40px;
     padding-right: 10px;
-    font-size: 14px;
-    color: #70757a;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #3c4043;
 }
 
 .named-icon svg {
-    padding-right: 5px;
+    position: absolute;
+    left: -2px;
+    height: 36px;
+    width: 36px;
+    padding: 0;
+    margin: 0;
+    
 }
 
 .named-icon-drop-icon svg {
