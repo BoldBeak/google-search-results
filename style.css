@@ -444,6 +444,19 @@ p.attached-choice {
     margin-top: 3px;
 }
 
+.unnamed-images-row-container {outline: 1px dashed orange;
+    height: 130px;
+    width: 97%;
+    display: block;
+}
+
+.more-images-scroll-right svg {
+    border: 1px solid #ebebeb;
+    border-radius: 50%;
+    fill: #70757a;
+    padding: 5px;
+    box-shadow: 0px 3px 10px -5px #70757a;
+}
 
 
 /* suggested searches drop-down list */
