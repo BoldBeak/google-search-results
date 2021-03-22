@@ -448,14 +448,24 @@ p.attached-choice {
     height: 130px;
     width: 97%;
     display: block;
+    position: relative;
 }
 
+.unnamed-images-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    scroll
+}
 .more-images-scroll-right svg {
     border: 1px solid #ebebeb;
     border-radius: 50%;
     fill: #70757a;
     padding: 5px;
     box-shadow: 0px 3px 10px -5px #70757a;
+    position: absolute;
+    top: 40%;
+    right: -18px;
 }
 
 
