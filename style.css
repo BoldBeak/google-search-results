@@ -454,8 +454,8 @@ p.attached-choice {
 .unnamed-images-container {
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    scroll
+    display: flex;
+    overflow: auto;
 }
 .more-images-scroll-right svg {
     border: 1px solid #ebebeb;
