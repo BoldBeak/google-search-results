@@ -444,7 +444,11 @@ p.attached-choice {
     margin-top: 3px;
 }
 
-.unnamed-images-row-container {outline: 1px dashed orange;
+.named-icon-drop-icon svg:hover {
+    background-color: #f8f9fa;
+}
+
+.unnamed-images-row-container {
     height: 130px;
     width: 97%;
     display: block;
@@ -457,6 +461,11 @@ p.attached-choice {
     display: flex;
     overflow: hidden;
 }
+
+.unnamed-images-container img {
+    margin-right: 2px;
+}
+
 .more-images-scroll-right svg {
     border: 1px solid #ebebeb;
     border-radius: 50%;
@@ -467,6 +476,58 @@ p.attached-choice {
     top: 40%;
     right: -18px;
 }
+
+.report-images-link {
+    display: block;
+    width: 99%;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: right;
+    padding-top: 7px;
+    color: #70757a;
+}
+
+.view-all-images-row-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.line-decoration {
+    width: 27%;
+    height: 1px;
+    background-color: #ebebeb;
+
+}
+
+
+.view-all-button-link {
+    width: 46%;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    line-height: 36px;
+    border-radius: 18px;
+    position: relative;
+}
+
+.view-all-button-link svg {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    height: 18px;
+    width: 18px;
+    fill: #1a0dab;
+}
+
+.view-all-button:hover {
+    background-color: #f8f9fa;
+    border-radius: 18px;
+}
+
 
 
 /* suggested searches drop-down list */
