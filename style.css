@@ -444,6 +444,10 @@ p.attached-choice {
     margin-top: 3px;
 }
 
+.named-icon-drop-icon svg:hover {
+    background-color: #f8f9fa;
+}
+
 .unnamed-images-row-container {
     height: 130px;
     width: 97%;
@@ -459,7 +463,7 @@ p.attached-choice {
 }
 
 .unnamed-images-container img {
-    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .more-images-scroll-right svg {
