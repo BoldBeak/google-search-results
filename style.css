@@ -487,6 +487,47 @@ p.attached-choice {
     color: #70757a;
 }
 
+.view-all-images-row-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.line-decoration {
+    width: 27%;
+    height: 1px;
+    background-color: #ebebeb;
+
+}
+
+
+.view-all-button-link {
+    width: 46%;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    line-height: 36px;
+    border-radius: 18px;
+    position: relative;
+}
+
+.view-all-button-link svg {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    height: 18px;
+    width: 18px;
+    fill: #1a0dab;
+}
+
+.view-all-button:hover {
+    background-color: #f8f9fa;
+    border-radius: 18px;
+}
+
 
 
 /* suggested searches drop-down list */
