@@ -444,7 +444,7 @@ p.attached-choice {
     margin-top: 3px;
 }
 
-.unnamed-images-row-container {outline: 1px dashed orange;
+.unnamed-images-row-container {
     height: 130px;
     width: 97%;
     display: block;
@@ -457,6 +457,11 @@ p.attached-choice {
     display: flex;
     overflow: hidden;
 }
+
+.unnamed-images-container img {
+    margin-left: 2px;
+}
+
 .more-images-scroll-right svg {
     border: 1px solid #ebebeb;
     border-radius: 50%;
@@ -467,6 +472,17 @@ p.attached-choice {
     top: 40%;
     right: -18px;
 }
+
+.report-images-link {
+    display: block;
+    width: 99%;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: right;
+    padding-top: 7px;
+    color: #70757a;
+}
+
 
 
 /* suggested searches drop-down list */
